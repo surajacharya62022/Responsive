@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resopnsive Navigational Menu</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="..CSS\reset.css">
+
+	<style type="text/css">
+		body
+		{
+			background: #eee;
+		}
+		
+		.clearfix:after
+		{
+			content: '';
+			clear: both;
+			display: table;
+		}
+		
+		nav
+		{
+			background: #888;
+			color: black;
+			float: right;
+		 	padding: 10px;
+		} 
+
+		.opt
+		{
+			background: #888;
+			display: none;
+		 	width: 150px;
+		 	padding: 10px;
+		}
+
+		.opt:hover
+		{
+			background: #333;
+			color: #fff;
+		}
+
+		.icon
+		{
+			display: block;
+		 	width: 20px;
+		 	text-align: center;
+		}
+
+		nav:hover .opt
+		{
+			display: block;
+		}
+
+		nav:hover .icon
+		{
+			display: none;
+		}
+		
+		
+		@media screen and (min-width: 500px) 
+		{
+			.icon
+			{
+				display: none;
+			}
+
+			nav
+			{
+				float: none;
+				text-align: center;
+				width: 75%;
+		 		margin: 0% 12.5% 0% 12.5%
+		 		
+			}
+			
+			nav:hover .opt
+			{
+				display: inline-block;
+				text-align: center;
+			}
+
+			.opt
+			{
+				display: inline-block;
+			}
+		}
+
+	</style>
+</head>
+<body class="clearfix">
+	<nav class="clearfix">
+		<div class="icon">
+			<i class="fa fa-bars"></i>
+		</div>
+		<div class="opt">
+			Home
+		</div>
+		<div class="opt">
+			News
+		</div>
+		<div class="opt">
+			Contact
+		</div>
+		<div class="opt">
+			About
+		</div>	
+	</nav>
+
+</body>
+</html>
+Collapse
+
+
+
+Last updated less than a minute ago… Load new messages
+Message Input
